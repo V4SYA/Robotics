@@ -1,0 +1,1180 @@
+stamp:
+  sec: 1695238168
+  nanosec: 280467964
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=10,635292, y=-0,001405])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 295509277
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=10,649725, y=-0,006906])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 308318772
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=10,635292, y=-0,001405])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 311901093
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=10,664351, y=-0,006487])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 324559498
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=10,649725, y=-0,006906])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 328226353
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=10,679158, y=-0,006063])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 340907786
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=10,664351, y=-0,006487])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 342954345
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=10,694133, y=-0,005634])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 356181195
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=10,679158, y=-0,006063])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 359742867
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=10,709264, y=-0,005201])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 372493286
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=10,694133, y=-0,005634])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 375551187
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=10,724538, y=-0,004763])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 389743596
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=10,709264, y=-0,005201])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 391814310
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=10,739944, y=-0,004321])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 404564795
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=10,724538, y=-0,004763])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 407062918
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=10,755467, y=-0,003876])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 421323434
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=10,739944, y=-0,004321])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 423370137
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=10,771096, y=-0,003427])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 436107908
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=10,755467, y=-0,003876])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 439412664
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=10,786817, y=-0,002976])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 452332023
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=10,771096, y=-0,003427])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 454905449
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=10,802617, y=-0,002522])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 468127109
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=10,786817, y=-0,002976])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 472228156
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=10,818483, y=-0,002066])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 484430457
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=10,802617, y=-0,002522])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 487021025
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=10,834402, y=-0,001608])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 500211642
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=10,818483, y=-0,002066])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 502777765
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=10,850361, y=-0,001149])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 516999318
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=10,834402, y=-0,001608])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 519085771
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=10,866346, y=-0,000689])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 532264506
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=10,850361, y=-0,001149])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 535342015
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=10,882344, y=-0,000228])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 548027096
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=10,866346, y=-0,000689])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 563811999
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=10,882344, y=-0,000228])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 759509622
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,100326, y=0,044580])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 778366674
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,103513, y=0,051071])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 788571602
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,100326, y=0,044580])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 791092630
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,103320, y=0,057980])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 804336818
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,103513, y=0,051071])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 806845908
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,103115, y=0,065303])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 820997989
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,103320, y=0,057980])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 823634219
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,102899, y=0,073031])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 835851503
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,103115, y=0,065303])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 839408371
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,102670, y=0,081160])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 852633474
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,102899, y=0,073031])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 855175395
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,102430, y=0,089683])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 869980977
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,102670, y=0,081160])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 872007183
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,102179, y=0,098591])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 884239390
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,102430, y=0,089683])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 887277487
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,101917, y=0,107879])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 900501506
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,102179, y=0,098591])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 903052750
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,101645, y=0,117538])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 919545041
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,101917, y=0,107879])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 921335119
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,101361, y=0,127561])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 932568622
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,101645, y=0,117538])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 935645400
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,101067, y=0,137938])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 948828528
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,101361, y=0,127561])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 951361948
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,100763, y=0,148662])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 964155379
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,101067, y=0,137938])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 967803178
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,100450, y=0,159724])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 980443854
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,100763, y=0,148662])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 983011559
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,100126, y=0,171113])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 996205307
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,100450, y=0,159724])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238168
+  nanosec: 999260710
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,099794, y=0,182822])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 14032685
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,100126, y=0,171113])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 15047648
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,099452, y=0,194839])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 27813711
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,099794, y=0,182822])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 30796337
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,099102, y=0,207156])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 44015185
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,099452, y=0,194839])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 47567454
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,098743, y=0,219762])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 59782791
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,099102, y=0,207156])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 63332504
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,098376, y=0,232646])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 76574388
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,098743, y=0,219762])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 79168809
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,098001, y=0,245798])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 93354644
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,098376, y=0,232646])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 95403708
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,097618, y=0,259207])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 109208566
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,098001, y=0,245798])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 111737730
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,097228, y=0,272862])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 123904663
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,097618, y=0,259207])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 127974352
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,096832, y=0,286752])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 141201452
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,097228, y=0,272862])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 143356376
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,096429, y=0,300864])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 156275509
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,096832, y=0,286752])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 159025003
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,096019, y=0,315188])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 172275764
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,096429, y=0,300864])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 174929317
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,095604, y=0,329710])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 191213710
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,096019, y=0,315188])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 191646038
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,095183, y=0,344421])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 204350696
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,095604, y=0,329710])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 207407976
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,094756, y=0,359306])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 220108826
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,095183, y=0,344421])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 223680933
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,094325, y=0,374354])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 235891686
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,094756, y=0,359306])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 238918479
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,093890, y=0,389553])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 252103695
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,094325, y=0,374354])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 255316783
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,093450, y=0,404889])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 268408973
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,093890, y=0,389553])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 271217450
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,093007, y=0,420350])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 284338918
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,093450, y=0,404889])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 288307387
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,092560, y=0,435923])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 300512589
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,093007, y=0,420350])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 303049233
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,092110, y=0,451596])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 317815252
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,092560, y=0,435923])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 319011612
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,091657, y=0,467355])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 333596698
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,092110, y=0,451596])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 334903724
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,091202, y=0,483187])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 351368832
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,091657, y=0,467355])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 352385081
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,090745, y=0,499079])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 366129947
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,091202, y=0,483187])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 367201926
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,090287, y=0,515017])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 379894349
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,090745, y=0,499079])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 383441725
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,089827, y=0,530990])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 396165280
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,090287, y=0,515017])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 399289996
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,089367, y=0,546983])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 411954694
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,089827, y=0,530990])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 415545724
+level: 30
+name: turtlesim2.sim2
+msg: Oh no! I hit the wall! (Clamping from [x=11,088906, y=0,562983])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 427723180
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,089367, y=0,546983])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
+stamp:
+  sec: 1695238169
+  nanosec: 446548471
+level: 30
+name: turtlesim3.sim3
+msg: Oh no! I hit the wall! (Clamping from [x=11,088906, y=0,562983])
+file: /home/vasya/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+function: update
+line: 260
+---
