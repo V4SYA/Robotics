@@ -4,7 +4,7 @@
 Источник установочных файлов.
 Нужно будет запускать эту команду в каждом новом источнике, который я открываю, чтобы получить доступ к командам ROS 2:
 
-#### source /opt/ros/humble/setup.bash
+### source /opt/ros/humble/setup.bash
 
 Можно заменить ".bash" на другой: setup.bash, setup.sh, setup.zsh
 
