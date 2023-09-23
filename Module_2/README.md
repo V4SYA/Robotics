@@ -105,3 +105,23 @@ setup.pyсодержащий инструкции по установке пак
 ### ros2 node list > rosnode_list.txt
 2) Сохраните вывод команды ros2 node info вашей ноды в файл rosnode_info.txt.
 ### ros2 node info <node_name> > rosnode_info.tx
+
+## Задание ex06
+Откройте новый терминал и запустите:
+ros2 run turtlesim turtlesim_node
+Откройте другой терминал и запустите:
+ros2 run turtlesim turtle_teleop_key
+
+### rqt_graph
+Используется для визуализации узлов и заголовков, а также связи между ними.
+
+Чтобы посмотреть данные, публикуемые по заголовку:
+### ros2 topic echo <topic_name>
+
+#### Публиковать данные в теме прямо из командной строки
+### ros2 topic pub <topic_name> <msg_type> '<args>'
+
+#### Управляем черепашкой
+### ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
+
+--once— необязательный аргумент, означающий «опубликовать одно сообщение, затем выйти».
