@@ -29,7 +29,14 @@
 Собираем пакеты:
 ### colcon build
 
-## Пункт 2
+## Задание ex02
+Команда
+### ros2 pkg prefix ros2topic
+выводит путь к ROS пакету «ros2topic».
+
+Команда
+### ros2 pkg prefix action_tutorials_py
+выводит список выполняемых файлов в каталоге пакета «action_tutorials_py».
 ## Пункт 3
 
 # Заголовок 2
