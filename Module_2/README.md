@@ -70,17 +70,38 @@ setup.pyсодержащий инструкции по установке пак
 ### Задания
 #### Создание пакета
 Переход в директорию
-#### cd ~/ros2_ws/src
+### cd ~/ros2_ws/src
 
 Создание пакета
-#### ros2 pkg create --build-type ament_cmake <package_name>
+### ros2 pkg create --build-type ament_cmake <package_name>
 
 Создание рабочей области
-#### source install/local_setup.bash
+### source install/local_setup.bash
 
 Запустить исполняемый файл
-#### ros2 run my_package my_node
+### ros2 run my_package my_node
 
 Смотрим настройки package.xml
 
 ## Задание ex04
+Запишем выходные данные сборки нашего пакета colcon build в файл colcon_build.txt
+### colcon build --symlink-install > colcon_build.txt
+
+## Задание ex05
+#### Запуск ros2 (Turtlesim)
+### ros2 run turtlesim turtlesim_node
+
+#### Имена всех работающих узлов
+### ros2 node list
+
+#### Открываем новое окно терминала и пишем
+### ros2 run turtlesim turtle_teleop_key
+
+#### Информация об узле
+### ros2 node info <node_name>
+
+### Выполнение задания ex05
+1) Сохраните вывод команды ros2 node list в файл rosnode_list.txt.
+### ros2 node list > rosnode_list.txt
+2) Сохраните вывод команды ros2 node info вашей ноды в файл rosnode_info.txt.
+### ros2 node info <node_name> > rosnode_info.tx
