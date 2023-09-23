@@ -69,7 +69,10 @@ setup.pyсодержащий инструкции по установке пак
 
 ### Задания
 #### Создание пакета
-cd ~/ros2_ws/src - переход в директорию
-ros2 pkg create --build-type ament_cmake <package_name> - создание пакета
+Переход в директорию
+#### cd ~/ros2_ws/src
+
+Создание пакета
+#### ros2 pkg create --build-type ament_cmake <package_name>
 
 # Заголовок 2
