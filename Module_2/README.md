@@ -75,4 +75,9 @@ setup.pyсодержащий инструкции по установке пак
 Создание пакета
 #### ros2 pkg create --build-type ament_cmake <package_name>
 
+Создание рабочей области
+#### source install/local_setup.bash
+
+Запустить исполняемый файл
+#### ros2 run my_package my_node
 # Заголовок 2
