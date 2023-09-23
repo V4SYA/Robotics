@@ -7,8 +7,6 @@
 source /opt/ros/humble/setup.bash
 
 Можно заменить ".bash" на другой: setup.bash, setup.sh, setup.zsh
-_________________________
-
 
 ### Пункт 2
 ### Пункт 3
