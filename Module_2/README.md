@@ -152,3 +152,6 @@ name: Это имя, которое будет присвоено новой ч�
 
 ### cd launch
 ### ros2 launch turtlesim_mimic_launch.py
+
+Запуск rqt console
+### ros2 run rqt_console rqt_console
