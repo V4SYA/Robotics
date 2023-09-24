@@ -155,3 +155,25 @@ name: Это имя, которое будет присвоено новой ч�
 
 Запуск rqt console
 ### ros2 run rqt_console rqt_console
+
+### Задание ex09
+Создаём новый пакет
+## ros2 pkg create --build-type ament_cmake tutorial_interfaces
+Создаём каталоги в ros2_ws/src/tutorial_interfaces:
+
+## mkdir msg srv
+Создаём в tutorial_interfaces/msg новый файл, назвав его Num.msg с одной строкой кода, объявляющей его структуру данных:
+
+### int64 num
+## echo "int64 num" > tutorial_interfaces/msg/Num.msg
+
+Также в tutorial_interfaces/msgтолько что созданном каталоге создайте новый файл Sphere.msgсо следующим содержимым:
+
+geometry_msgs/Point center
+float64 radius
+## echo "geometry_msgs/Point center float64 radius" > tutorial_interfaces/msg/Sphere.msg
+
+Преобразуем файл CMakeLists.txt и package.xml
+
+Собираем пакет, находясь в ros2_ws
+## colcon build --packages-select tutorial_interfaces
