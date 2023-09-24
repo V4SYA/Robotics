@@ -177,3 +177,13 @@ float64 radius
 
 Собираем пакет, находясь в ros2_ws
 ## colcon build --packages-select tutorial_interfaces
+
+В новом окне терминала пишем
+## source install/setup.bash
+
+Подтвердждаем, что создание интерфейса сработало, используя команду:
+## ros2 interface show tutorial_interfaces/msg/Num
+И
+## ros2 interface show tutorial_interfaces/msg/Sphere
+А также
+## ros2 interface show tutorial_interfaces/srv/AddThreeInts
