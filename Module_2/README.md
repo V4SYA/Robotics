@@ -187,3 +187,21 @@ float64 radius
 ### ros2 interface show tutorial_interfaces/msg/Sphere
 А также
 ### ros2 interface show tutorial_interfaces/srv/AddThreeInts
+
+## Задание ex10
+Создаю пакет my_turtle_control
+### ros2 pkg create my_turtle_control
+в src создаю файл text_to_cmd_vel.py:
+### nano text_to_cmd_vel.py
+Вношу изменения в файлы CMakeLists.txt и package.xml
+
+CMakeLists.txt: Этот файл используется для настройки сборки вашего пакета.
+
+package.xml: Этот файл содержит информацию о пакете, включая его зависимости и метаданные.
+
+Сборка пакета
+### colcon build --packages-select my_turtle_control
+Запуск узла
+### ros2 run my_turtle_control text_to_cmd_vel
+Пример команды:
+### ros2 topic pub /cmd_text std_msgs/String "data: 'turn_right'"
