@@ -190,13 +190,7 @@ float64 radius
 
 ## Задание ex10
 Создаю пакет my_turtle_control
-### ros2 pkg create my_turtle_control
-в src создаю файл text_to_cmd_vel.py:
-### nano text_to_cmd_vel.py
-Вношу изменения в файлы CMakeLists.txt и package.xml
-
-CMakeLists.txt: Этот файл используется для настройки сборки вашего пакета.
-
+...
 package.xml: Этот файл содержит информацию о пакете, включая его зависимости и метаданные.
 
 Сборка пакета
