@@ -194,8 +194,8 @@ float64 radius
 package.xml: Этот файл содержит информацию о пакете, включая его зависимости и метаданные.
 
 Сборка пакета
-### colcon build --packages-select my_turtle_control
+### colcon build --packages-select ex10_package
 Запуск узла
-### ros2 run my_turtle_control text_to_cmd_vel
+### ros2 run ex10_package text_to_cmd_vel
 Пример команды:
-### ros2 topic pub /cmd_text std_msgs/String "data: 'turn_right'"
+### ros2 topic pub --once cmd_text std_msgs/msg/String "data: move_forward"
