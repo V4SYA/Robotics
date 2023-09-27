@@ -189,8 +189,9 @@ float64 radius
 ### ros2 interface show tutorial_interfaces/srv/AddThreeInts
 
 ## Задание ex10
-Создаю пакет my_turtle_control
-...
+Создаю пакет ex10_package
+### ros2 pkg create --build-type ament_python ex10_package
+
 package.xml: Этот файл содержит информацию о пакете, включая его зависимости и метаданные.
 
 Сборка пакета
