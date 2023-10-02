@@ -3,7 +3,6 @@ import sys
 from rclpy.node import Node
 from ex09_package.srv import FullNameSumService
 
-
 class ClientName(Node):
 
     def __init__(self):
@@ -15,7 +14,6 @@ class ClientName(Node):
         
         self.request = FullNameSumService.Request()
         
-
     def give_request(self, last_name, name, first_name):
         self.request.last_name = last_name
         self.request.name = name
@@ -26,22 +24,16 @@ class ClientName(Node):
         
         return res.result()
 
-
 def main():
     rclpy.init()
-
     client_name = ClientName()
-    
     res = client_name.give_request(sys.argv[1], sys.argv[2], sys.argv[3])
     
     if res:
     	client_name.get_logger().info('Full name: %s' % res.full_name)
-
-
+        
     client_name.destroy_node()
-
     rclpy.shutdown()
-
 
 if __name__ == '__main__':
     main()
