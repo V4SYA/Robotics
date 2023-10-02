@@ -2,7 +2,6 @@ import rclpy
 from rclpy.node import Node
 from ex09_package.srv import FullNameSumService
 
-
 class ServiceName(Node):
 
     def __init__(self):
@@ -21,16 +20,11 @@ class ServiceName(Node):
         
         return response
 
-
 def main(args=None):
     rclpy.init(args=args)
-
     minimal_service = ServiceName()
-
     rclpy.spin(minimal_service)
-
     rclpy.shutdown()
-
 
 if __name__ == '__main__':
     main()
