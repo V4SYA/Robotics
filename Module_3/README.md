@@ -16,3 +16,7 @@
 ### ros2 bag play turtle_cmd_vel --rate 2.0
 
 ### ros2 topic echo /turtle1/pose >> pose_speed_x2.yaml
+
+## Задание ex04
+
+#### ros2 doctor --report > doctor.txt
