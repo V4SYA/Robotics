@@ -17,6 +17,11 @@
 
 ### ros2 topic echo /turtle1/pose >> pose_speed_x2.yaml
 
+## Задание ex05
+
+### ros2 run turtlesim turtlesim_node
+### ros2 run move_to_goal move_to_goal 1 1 180
+
 ## Задание ex04
 
 #### ros2 doctor --report > doctor.txt
