@@ -8,10 +8,15 @@ class ClientName(Node):
     def __init__(self):
         super().__init__('client_name')
         self.client = self.create_client(FullNameSumService, 'summ_full_name')
-        
+
+        # ожидаем, пока сервис FullNameSumService не станет доступным. 
+        # Если сервис не становится доступным в течение 1 секунды, 
+        # выводится сообщение "I can't wait any more"
         while not self.client.wait_for_service(timeout_sec=1.0):
-        	self.get_logger().info('I am a very lazy')
+        	self.get_logger().info('I can't wait any more')
         
+        # объект запроса для сервиса, 
+        # который будет использоваться для отправки запроса сервису
         self.request = FullNameSumService.Request()
         
     def give_request(self, last_name, name, first_name):
