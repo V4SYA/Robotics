@@ -6,10 +6,15 @@ class ServiceName(Node):
 
     def __init__(self):
         super().__init__('service_name')
+
+        # создаём сервер сервиса FullNameSumService с именем "summ_full_name"
+        # и указываем метод handle_service_request для обработки запросов.
         self.service = self.create_service(
         FullNameSumService, 'summ_full_name', self.handle_service_request
         )
 
+    # принимаем запрос request и объект response, обрабатываем запрос,
+    # формируем полное имя и устанавливаем его в объекте ответа:
     def handle_service_request(self, request, response):
         last_name = request.last_name
         name = request.name
