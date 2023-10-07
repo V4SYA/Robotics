@@ -75,7 +75,7 @@ def main(args=None):
     knot = TurtleIsMoved()
     
     # Бесконечный цикл обработки сообщений
-    rclpy.spin(x)
+    rclpy.spin(knot)
     
     knot.destroy_node()
     rclpy.shutdown()
