@@ -1,11 +1,14 @@
 cmake_minimum_required(VERSION 3.8)
 project(action_turtle_commands)
 
+# Проверяет, является ли компилятор GNU C++ (g++) или Clang. 
+# Если это так, то активируются опции компилятора -Wall -Wextra -Wpedantic,
+# что означает включение дополнительных предупреждений при компиляции кода
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-# find dependencies
+# Находим и загружаем пакеты
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
