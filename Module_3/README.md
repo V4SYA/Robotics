@@ -40,6 +40,6 @@ ros2 doctor проверяет все аспекты ROS 2, включая пл�
 ## Задание ex05
 
 ### ros2 run turtlesim turtlesim_node
-### ros2 run move_to_goal move_to_goal x, y, theta
+### ros2 run move_to_goal move x, y, theta
 Пример
-### ros2 run move_to_goal move_to_goal 2 3 90
+### ros2 run move_to_goal move 2 3 90
