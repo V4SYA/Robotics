@@ -7,7 +7,9 @@
   <maintainer email="v.pstnykh@g.nsu.ru">Vasya</maintainer>
   <license>Apache License 2.0</license>
 
+  <!-- Зависит от ament_cmake как инструмента сборки пакета -->
   <buildtool_depend>ament_cmake</buildtool_depend>
+  
   <build_depend>ros2</build_depend>
   <exec_depend>rclpy</exec_depend>
   <exec_depend>action_msgs</exec_depend>
