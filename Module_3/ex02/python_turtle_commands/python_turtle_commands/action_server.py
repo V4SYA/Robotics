@@ -82,14 +82,19 @@ class CommandActionServer(Node):
         
         # Отслеживаем движения черепахи и обновления feedback до тех пор, пока она движется
         while self.after_pose.linear_velocity != 0 or self.after_pose.angular_velocity != 0:
-        
-        # Обновляется feedback_msg.odom на основе расстояния между текущей и предыдущей позициями
-            feedback_msg.odom = int(math.sqrt((self.after_pose.x - self.before_pose.x)**2+(self.after_pose.y - self.before_pose.y)**2))
+            afterx, beforex = self.after_pose.x, self.before_pose.x
+            aftery, beforey = self.after_pose.y, self.before_pose.y
             
-            self.get_logger().info('Feedback: {0}'.format(feedback_msg.odom))
-            
-            # Публикуем feedback для клиента
-            goal_handle.publish_feedback(feedback_msg)
+            current_time = time.time()  # Получаем текущее время
+            if current_time - self.feedback_time >= 0.1:  # Проверяем, прошла ли секунда
+                feedback_msg.odom = int(math.sqrt((afterx - beforex) ** 2 + (aftery - beforey) ** 2))
+                self.get_logger().info(f'Feedback: {feedback_msg.odom}')
+                goal_handle.publish_feedback(feedback_msg)
+                self.feedback_time = current_time  # Обновляем время последнего вывода фидбека
+
+        feedback_msg.odom = math.ceil(math.sqrt((afterx - beforex) ** 2 + (aftery - beforey) ** 2))
+        self.get_logger().info(f'Feedback: {feedback_msg.odom}')
+        goal_handle.publish_feedback(feedback_msg)
             
         goal_handle.succeed()
         result = MessageTurtleCommands.Result()
