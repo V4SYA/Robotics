@@ -1,5 +1,7 @@
 import math
 import rclpy
+import time
+
 from rclpy.node import Node
 from turtlesim.msg import Pose
 from geometry_msgs.msg import Twist
@@ -15,30 +17,34 @@ COMMAND_RIGHT = 'turn_right'
 class CommandActionServer(Node):
 
     def __init__(self):
-        super().__init__('action_server')
+        super().__init__('action_turtle_server')
         # Создаём переменные класса для хранения:
         # скорости черепахи
         self.twist = Twist()
-        
+
         # флага
         # flag == 0: узел ждёт обновления позиции черепахи и сохраняет предыдущую позицию
         # flag == 1: узел начинает выполнение цели и отслеживает обратную связь о перемещении черепахи
         self.flag = 0
-        
+
         # текущей позиции
         self.after_pose = Pose()
         # предыдущей позиции 
         self.before_pose = Pose()
+
+        self.feedback_time = time.time()  # Добавляем переменную для отслеживания времени
         
         # Создаём публикатора для сообщений типа Twist с именем топика "/turtle1/cmd_vel"
         # 10 - размер очереди сообщений
         self.publisher_ = self.create_publisher(Twist, '/turtle1/cmd_vel', 10)
         
-        # Создаём action сервер с указанными параметрами: текущий узел (self), тип цели (MessageTurtleCommands), и именем сервера "move_turtle". Также указываем метод self.execute_callback для выполнения цели
+        # Создаём action сервер с указанными параметрами: текущий узел (self), тип цели (MessageTurtleCommands), и именем сервера "move_turtle".
+        # Также указываем метод self.execute_callback для выполнения цели
         self._action_server = ActionServer(self, MessageTurtleCommands, 'move_turtle', self.execute_callback)
         
         # Создаём подписчика для сообщений типа Pose с именем топика "/turtle1/pose"
         self.subscription = self.create_subscription(Pose, '/turtle1/pose', self.callback, 10)
+        self.subscription 
 
     # Метод для обработки обновлений позиции черепахи
     def callback(self, msg):
@@ -58,16 +64,16 @@ class CommandActionServer(Node):
         if goal_handle.request.command == COMMAND_FORWARD:
             self.twist.linear.x = float(goal_handle.request.s)
             self.twist.angular.z = 0.0
-            
-        # Команда поворот налево    
+        
+        # Команда поворот налево
         elif goal_handle.request.command == COMMAND_LEFT:
             self.twist.linear.x = 0.0
-            self.twist.angular.z = float(goal_handle.request.angle) * math.pi /180
+            self.twist.angular.z = float(goal_handle.request.angle) * math.pi / 180
         
-        # Команда поворот направо    
+        # Команда поворот направо
         elif goal_handle.request.command == COMMAND_RIGHT:
             self.twist.linear.x = 0.0
-            self.twist.angular.z = -float(goal_handle.request.angle) * math.pi /180
+            self.twist.angular.z = -float(goal_handle.request.angle) * math.pi / 180
             
         # Публикуем сообщение о скорости движения черепахи
         self.publisher_.publish(self.twist)
@@ -79,15 +85,16 @@ class CommandActionServer(Node):
         # Необходим для того, чтобы убедиться, что черепаха начала двигаться перед тем, как начать измерять расстояние и предоставлять feedback клиенту
         while self.flag == 1 and (self.after_pose.linear_velocity == 0 or self.after_pose.angular_velocity == 0):
             pass
-        
+            
         # Отслеживаем движения черепахи и обновления feedback до тех пор, пока она движется
         while self.after_pose.linear_velocity != 0 or self.after_pose.angular_velocity != 0:
             afterx, beforex = self.after_pose.x, self.before_pose.x
             aftery, beforey = self.after_pose.y, self.before_pose.y
             
             current_time = time.time()  # Получаем текущее время
-            if current_time - self.feedback_time >= 0.1:  # Проверяем, прошла ли секунда
+            if current_time - self.feedback_time >= 0.1:
                 feedback_msg.odom = int(math.sqrt((afterx - beforex) ** 2 + (aftery - beforey) ** 2))
+
                 self.get_logger().info(f'Feedback: {feedback_msg.odom}')
                 goal_handle.publish_feedback(feedback_msg)
                 self.feedback_time = current_time  # Обновляем время последнего вывода фидбека
@@ -95,26 +102,23 @@ class CommandActionServer(Node):
         feedback_msg.odom = math.ceil(math.sqrt((afterx - beforex) ** 2 + (aftery - beforey) ** 2))
         self.get_logger().info(f'Feedback: {feedback_msg.odom}')
         goal_handle.publish_feedback(feedback_msg)
-            
+
         goal_handle.succeed()
         result = MessageTurtleCommands.Result()
         result.result = True
-        
         return result
-
 
 def main(args=None):
     rclpy.init(args=args)
-    
+
     action_turtle_server = CommandActionServer()
-    
+
     executor = MultiThreadedExecutor(num_threads=2)
     executor.add_node(action_turtle_server)
-    
+
     # Запустили выполнение узлов
     executor.spin()
     executor.shutdown()
-    
     action_turtle_server.destroy_node()
     
     rclpy.shutdown()
