@@ -1,3 +1,7 @@
+""" Этот узел является частью системы управления для двух черепах,
+где одна черепаха следит за другой и перемещается в её направлении
+с использованием трансформаций и команд управления """
+
 import math
 from geometry_msgs.msg import Twist
 import rclpy
@@ -78,7 +82,7 @@ class FrameListener(Node):
                    return
 
                 # Движение turtle2 в направлении turtle1,
-		        # используя вычисленные угловую и линейную скорости.
+		# используя вычисленные угловую и линейную скорости.
                 msg = Twist()
                 scale_rotation_rate = 1.0
                 msg.angular.z = scale_rotation_rate * math.atan2(
