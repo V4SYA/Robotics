@@ -67,8 +67,12 @@ class FrameListener(Node):
                 # Поиск трансформации между target_frame и turtle2
                 # и отправка команд управления для turtle2 для достижения target_frame
                 try:
+		    # Вычисляем момент времени, который будет использоваться при поиске трансформации между
+		    # turtle1 и turtle2
                     when = self.get_clock().now() - rclpy.time.Duration(seconds=self.delay)
-                    t = self.tf_buffer.lookup_transform_full(
+			
+		    # Выполняем поиск и получение трансформации между turtle1 и turtle2
+                    trans = self.tf_buffer.lookup_transform_full(
                         target_frame = to_frame_rel,
                         target_time = rclpy.time.Time(),
                         source_frame = from_frame_rel,
@@ -77,6 +81,7 @@ class FrameListener(Node):
                         timeout=rclpy.duration.Duration(seconds=0.05))
                 
                 # From tutorial
+		# Обработка исключений, которые могут возникнуть при попытке выполнить операцию поиска и получения trans
                 except (LookupException, ConnectivityException, ExtrapolationException):
                    self.get_logger().info('transform not ready')
                    return
@@ -86,13 +91,13 @@ class FrameListener(Node):
                 msg = Twist()
                 scale_rotation_rate = 1.0
                 msg.angular.z = scale_rotation_rate * math.atan2(
-                    t.transform.translation.y,
-                    t.transform.translation.x)
+                    trans.transform.translation.y,
+                    trans.transform.translation.x)
 
                 scale_forward_speed = 0.5
                 msg.linear.x = scale_forward_speed * math.sqrt(
-                    t.transform.translation.x ** 2 +
-                    t.transform.translation.y ** 2)
+                    trans.transform.translation.x ** 2 +
+                    trans.transform.translation.y ** 2)
 
                 self.publisher.publish(msg)
 
