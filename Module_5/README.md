@@ -2,6 +2,6 @@
 
 ## Задание ex01
 
-### colcon build --packages-select sam_bot_description
+### colcon build --packages-select robot
 
-### ros2 launch sam_bot_description display.launch.py
+### ros2 launch robot robot_display.launch.py
