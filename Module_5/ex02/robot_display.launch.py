@@ -9,7 +9,7 @@ def generate_launch_description():
     # ищем директорию пакета
     pkg_share = launch_ros.substitutions.FindPackageShare(package='robot').find('robot')
     # формируем путь к URDF-файлу робота путем объединения пути к директории пакета и пути к URDF-файлу
-    default_model_path = os.path.join(pkg_share, 'src/description/robot.urdf')
+    default_model_path = os.path.join(pkg_share, 'src/description/robot.urdf.xacro')
     # формируем путь к файлу конфигурации RViz путем объединения пути к директории пакета и пути к файлу конфигурации
     default_rviz_config_path = os.path.join(pkg_share, 'rviz/urdf_config.rviz')
 
