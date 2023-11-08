@@ -6,6 +6,7 @@
 
 ### ros2 launch robot robot_display.launch.py
 
+
 ## Задание ex03
 
 ### colcon build --packages-select ex03
@@ -18,3 +19,5 @@
 -r для перенаправления темы /cmd_vel на /robot/cmd_vel.
 Все сообщения, отправленные в /cmd_vel, будут перенаправлены в /robot/cmd_vel
 ### ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/robot/cmd_vel
+
+## Задание ex04
