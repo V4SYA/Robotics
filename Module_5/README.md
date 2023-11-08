@@ -8,6 +8,10 @@
 
 ## Задание ex03
 
+### colcon build --packages-select ex03
+
+### ros2 launch ex03 diff_drive.launch.py
+
 Запускаем пакет teleop_twist_keyboard.
 Этот пакет предоставляет интерфейс управления с клавиатуры для управления роботом.
 Задаём аргументы ROS:
