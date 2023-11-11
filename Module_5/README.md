@@ -25,7 +25,6 @@
 ### ros2 launch circle_movement circle_movement.launch.py
 
 ## Задание ex05
-Траекторию движения Маккуина поменял, он далеко не square, хотел square, но передумал.
-Менять название пакета уже не стал.
-### colcon build --packages-select square_movement
-### ros2 launch square_movement square_movement.launch.py
+
+### colcon build --packages-select lightning_mcqueen
+### ros2 launch lightning_mcqueen move.launch.py
