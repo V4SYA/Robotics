@@ -25,5 +25,5 @@
 ### ros2 launch circle_movement circle_movement.launch.py
 
 ## Задание ex05
-### colcon build --packages-select lightning_mcqueen
-### ros2 launch lightning_mcqueen diff_drive.launch.py
+### colcon build --packages-select square_movement
+### ros2 launch square_movement square_movement.launch.py
