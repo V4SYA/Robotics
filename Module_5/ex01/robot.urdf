@@ -76,7 +76,7 @@
       <geometry>
         <box size="0.1 0.1 0.02"/> <!-- Размеры прямоугольника (высота, ширина, длина) -->
       </geometry>
-      <material name="Yellow"> <!-- Вы можете изменить цвет на свой вкус -->
+      <material name="Yellow">
         <color rgba="1.0 1.0 0 1.0"/>
       </material>
     </visual>
@@ -108,7 +108,7 @@
       <geometry>
         <box size="0.1 0.02 0.02"/> <!-- Размеры прямоугольника (высота, ширина, длина) -->
       </geometry>
-      <material name="Yellow"> <!-- Вы можете изменить цвет на свой вкус -->
+      <material name="Yellow">
         <color rgba="1.0 1.0 0 1.0"/>
       </material>
     </visual>
@@ -141,7 +141,7 @@
       <geometry>
         <box size="0.05 0.02 0.02"/> <!-- Размеры прямоугольника (высота, ширина, длина) -->
       </geometry>
-      <material name="Yellow"> <!-- Вы можете изменить цвет на свой вкус -->
+      <material name="Yellow">
         <color rgba="1.0 1.0 0 1.0"/>
       </material>
     </visual>
@@ -177,7 +177,7 @@
       <geometry>
         <box size="0.1 0.02 0.02"/> <!-- Размеры прямоугольника (высота, ширина, длина) -->
       </geometry>
-      <material name="Yellow"> <!-- Вы можете изменить цвет на свой вкус -->
+      <material name="Yellow">
         <color rgba="1.0 1.0 0 1.0"/>
       </material>
     </visual>
@@ -211,7 +211,7 @@
       <geometry>
         <box size="0.1 0.02 0.02"/> <!-- Размеры прямоугольника (высота, ширина, длина) -->
       </geometry>
-      <material name="Yellow"> <!-- Вы можете изменить цвет на свой вкус -->
+      <material name="Yellow">  
         <color rgba="1.0 1.0 0 1.0"/>
       </material>
     </visual>
@@ -244,7 +244,7 @@
       <geometry>
         <box size="0.1 0.02 0.02"/> <!-- Размеры прямоугольника (высота, ширина, длина) -->
       </geometry>
-      <material name="Yellow"> <!-- Вы можете изменить цвет на свой вкус -->
+      <material name="Yellow">  
         <color rgba="1.0 1.0 0 1.0"/>
       </material>
     </visual>
@@ -277,7 +277,7 @@
       <geometry>
         <box size="0.055 0.02 0.02"/> <!-- Размеры прямоугольника (высота, ширина, длина) -->
       </geometry>
-      <material name="Yellow"> <!-- Вы можете изменить цвет на свой вкус -->
+      <material name="Yellow">  
         <color rgba="1.0 1.0 0 1.0"/>
       </material>
     </visual>
@@ -310,7 +310,7 @@
       <geometry>
         <box size="0.055 0.02 0.02"/> <!-- Размеры прямоугольника (высота, ширина, длина) -->
       </geometry>
-      <material name="Yellow"> <!-- Вы можете изменить цвет на свой вкус -->
+      <material name="Yellow">  
         <color rgba="1.0 1.0 0 1.0"/>
       </material>
     </visual>
